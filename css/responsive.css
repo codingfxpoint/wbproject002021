@@ -1,0 +1,40 @@
+@media screen and (min-width: 200px) and (max-width: 991px) {
+    #mainmenu{display: none;}
+    .slicknav_menu{display:block}
+    .in_caret{display: none;}
+    #brand_content{padding:18px 0;}
+    .logo_area{float:none;width:100%;text-align:center;margin-bottom:30px}
+    .search_area{float:none;text-align: center;}
+}
+@media screen and (min-width: 200px) and (max-width: 800px) {
+    .top_header_area{overflow:hidden;margin-left:32%;}
+    .default_menu{float:none;padding-top:10px;width:100%;}
+    .social_menu{float:none;text-align:center;width:100%;padding-top:47px;}
+    .recent_post{float:none;margin-top:41px;width:100%;text-align:center;}
+    .recent_image{float:none;width:100%;text-align:center;}
+    .layout_area{text-align:center;}
+    .social_menu{margin-top:10px;}
+    .logo_area{width:100%;text-align:center;margin-bottom:30px;}
+    .logo_area img{width: 26%;}
+    .search_area{float:none;text-align:center;}
+    .recent_post{width:100%;}
+    .layout_area{float:none;width:100%;}
+    .story_content{right:5%;width:100%;left:0;}
+    .story_content_right{float:none;left:0;width:100%;}
+    .story_work{float:none;width:50%;text-align:center;margin-left:119px;margin-top:102px;}
+    .left_area_healine h1{font-size:32px;}
+    .left_area_healine p{font-size:15px;}
+    .right_area_healine{float:none;width: 46%;}
+    .right_area_healine button{font-size:21px;}
+    .footer_event{float:none;width:100%;margin-bottom:60px;}
+    .contactus_area form{text-align:left;}
+    .contactus_area textarea{float:left;}
+    .contactus_area button{margin-top:20px;float:left;clear:both;}
+    .copyright_content .left_copyright_area{float:none;width:100%;}
+    .copyright_content .right_copyright_area{float:left;width:100%;margin-top:17px;}
+    .copyright_content .right_copyright_area{text-align:left;}
+}
+@media screen and (min-width: 200px) and (max-width: 414px) {
+    .top_header_area{margin-left:16%}
+    .social_menu{margin: -8px 0 0 26px;}
+}

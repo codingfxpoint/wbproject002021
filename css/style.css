@@ -1,0 +1,144 @@
+/*
+    COMMON CSS
+*/
+body{font-family:Georgia,'Times New Roman',Times,serif;margin:0;}
+.container{margin:0 auto;max-width:960px;width:94%;}
+img{height:auto;max-width:100%;}
+
+/*
+    TOP MENU HEADER AREA CSS
+*/
+.top_menu_area{clear:both;width:100%;}
+#menu_area{background:#2e2e2e;padding:15px 0;width:100%;}
+.top_header_area{overflow:hidden;}
+.default_menu{float:left;padding-top:10px;width:40%;}
+#menu_area ul{list-style-type:none;float:left;margin:0;padding:0;}
+.default_menu ul li{display:inline-block;margin-right:10px;position:relative;}
+.default_menu ul li::after{background:#9f9f9f;content:"";height:12px;left:-7px;position:absolute;top:3px;width:1px;}
+.default_menu ul li:first-child::after{display:none;}
+.default_menu ul li a{color:#9f9f9f;display:block;font-size:14px;text-decoration:none;}
+.default_menu ul li a:hover{color:#fff;transition:.5s;}
+/* -----SOCIAL MENU----- */
+.social_menu{float:right;}
+.social_menu ul{list-style:none;margin:0;padding:0;}
+.social_menu ul li{display:inline-block;margin-left:10px;}
+.social_menu ul li a{color:#fff;text-decoration:none;}
+.social_menu ul li a i{background:#787878;border-radius:50%;font-size:14px;height:25px;padding-top:10px;text-align:center;width:35px;}
+.social_menu ul li a i:hover{background:#db4a39;transition:.5s;}
+
+/*
+    NAVBAR AREA CSS
+*/
+.navbar_area{clear:both;width:100%;}
+#navbar_event{padding:30px 0;}
+.big_navbar{width:100%;}
+.big_navbar ul{list-style:none;margin:0;padding:0;}
+.big_navbar ul li{display:inline-block;margin-right:10px;position:relative;}
+.big_navbar ul li a{color:#2e2e2e;display:block;font-size:14px;padding:20px 0;text-decoration:none;}
+.big_navbar ul li a.home{color:#9f9f9f;border-bottom:5px solid #0099ff;}
+.big_navbar ul li a:hover{border-bottom:5px solid #0099ff;color:#9f9f9f;}
+.big_navbar ul ul{background:#2e2e2e;display:none;position:absolute;top:40px;width:200px;z-index:1;}
+.big_navbar ul li:hover ul{display:block;}
+.big_navbar ul li:hover a.drop{color:#9f9f9f;}
+.big_navbar ul li:hover a.drop:hover{border-bottom:none;}
+.big_navbar ul ul li{margin:0;display:block;}
+.big_navbar ul ul li a{color:#9f9f9f;margin:0;padding:14px 16px;text-transform:uppercase;}
+.big_navbar ul ul li:hover a{background:#0099ff;color:#9f9f9f;border-bottom:none;}
+.big_navbar ul ul ul{left:200px;top:0;}
+.big_navbar ul li:hover ul ul{display:none;}
+.big_navbar ul li:hover ul li:hover ul{display:block;}
+.big_navbar ul ul:hover ul li a{background:none;color:#9f9f9f;}
+.big_navbar ul ul li ul li a:hover{background:#0099ff;color:#9f9f9f;}
+.slicknav_menu{display:none;}
+
+
+/*
+    BRAND AREA CSS
+*/
+.brand_area{clear:both;width:100%;}
+#brand_content{overflow:hidden;padding:25px 0;}
+.brand_header{width:100%;}
+.logo_area{float:left;width:40%;}
+.logo_area p{color:#999999;font-size:14px;margin:0;}
+.search_area{float:right;}
+.search_area input[type="text"]{background:#f1f1f1;border:none;border-radius:5px;color:#999999;font-size:14px;outline:none;padding:10px;}
+.search_area button{background:#0099ff;border:none;border-radius:5px;color:#fff;font-size:14px;padding:10px;outline:none;}
+.search_area button:hover{background:#198ae2;cursor:pointer;transition:.5s;}
+
+/*
+    HERO AREA CSS
+*/
+.hero_area{clear:both;width:100%;}
+#hero_present{background:#f1f1f1;padding:15px 0;}
+.description_area{overflow:hidden;}
+.recent_post{float:left;margin-top:70px;width:40%;}
+.recent_post h1{color:#333333;font-size:36px;font-weight:normal;}
+.recent_post p{color:#666666;font-size:16px;margin-bottom:30px;padding-top:0;}
+.recent_post a{background:#0099ff;border-radius:5px;color:#fff;font-size:16px;padding:10px 10px;text-decoration:none;}
+.recent_post a:hover{background:#198ae2;transition:.5s;}
+.recent_image{float:right;height:455px;left:5%;margin-top:40px;width:55%;}
+
+/* =================================
+MAINTENANCE AREA CSS
+================================= */
+.maintenance_area{clear:both;width:100%;}
+#post_area{margin-top:30px;}
+.story_area{overflow:hidden;width:100%;}
+.layout_area{float:left;right:2%;width:48%;}
+.story_work{float:right;left:2%;width:48%;}
+#story_area{overflow:hidden;width:100%;}
+.story_content{float:left;right:2%;width:48%;}
+.story_content_right{float:right;left:2%;width:48%;}
+.story_event{text-align:center;}
+.story_event h5{color:#0099ff;font-size:16px;font-weight:normal;margin-bottom:0;}
+.story_event p{color:#666666;font-size:14px;line-height:20px;margin-bottom:30px;}
+
+/*
+    HEADLINE AREA CSS
+*/
+#headline_area{clear:both;width:100%;}
+.headline_area_content{background-color:#e0e0e0;border-left:10px solid #0099ff;margin-bottom:40px;}
+.headline_event{padding:10px 20px 20px 20px;overflow:hidden;}
+.left_area_healine{float:left;width:60%;}
+.left_area_healine h1{color:#333333;font-size:36px;font-weight:normal;margin-bottom:0;}
+.left_area_healine p{color:#333333;font-size:18px;}
+.right_area_healine{float:right;margin-top:50px;text-align:right;width:40%;}
+.right_area_healine button{background:#0099ff;border:none;border-radius:5px;color:#e6e6e6;font-size:26px;padding:10px;}
+
+/*
+    FOOTER AREA CSS
+*/
+#footer_area{background-color:#1a1a1a;padding:45px 0;}
+.footer_content{overflow:hidden;}
+.footer_event{float:left;width:24%;}
+.footer_event h3{color:#fff;font-size:14px;font-weight:normal;}
+.aboutus_area img{border:1px solid #555555;padding:4px;}
+.aboutus_area p{color:#666666;font-size:14px;line-height:19px;}
+.aboutus_area a{color:#0099ff;font-size:14px;float:right;text-decoration:none;}
+/* QUICK LINK---------- */
+.quicklink_area{margin-left:2%;}
+.quicklink_area p{color:#989898;}
+.quicklink_area p a{color:#0099ff;font-size:14px;margin-left:10px;text-decoration:none;}
+/* Latest Blog Post------ */
+.blogpost_area h4{color:#666666;font-size:14px;font-weight:normal;margin-bottom:0;}
+.blogpost_area code{color:#666666;font-size:14px;}
+.blogpost_area p{color:#666666;font-size:14px;line-height:14px;}
+.blogpost_area a{color:#0099ff;font-size:14px;float:right;text-decoration:none;}
+.second_title{padding-top:16px;}
+/* CONTACT US-------- */
+.contactus_area{margin-left:2%;}
+.contactus_area form{text-align:right;width:100%;}
+.contactus_area input{background:#232323;border:none;border-radius:5px;color:#989898;font-size:14px;margin-bottom:15px;outline:none;padding:10px;width:211px;}
+.contactus_area textarea{background:#232323;border:none;border-radius:5px;color:#989898;font-size:14px;outline:none;padding:10px;width:211px;}
+.contactus_area button{background:#0099ff;border:none;border-radius:5px;color:#fff;font-size:14px;font-weight:bold;margin-top:30px;padding:10px;}
+.contactus_area button:hover{background:#198ae2;cursor:pointer;transition:.5s;}
+
+/*
+    COPYRIGHT AREA CSS
+*/
+#copyright_area{background:#222222;padding:22px;}
+.copyright_content{overflow:hidden;width:100%;}
+.copyright_content p{color:#666666;font-size:14px;margin:0;}
+.copyright_content .left_copyright_area{float:left;text-align:left;width:60%;}
+.copyright_content .right_copyright_area{float:right;text-align:right;width:40%;}
+
